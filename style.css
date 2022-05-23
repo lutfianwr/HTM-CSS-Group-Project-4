@@ -1,24 +1,23 @@
+/*about-team-start*/
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-@media screen and (max-width: 600px) {
-  h2 {
-    text-align: center;
-  }
+#body-team {
+  background-image: url("./ASSETS FINAL PROJECT HTML-CSS/ornament_batik.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 19%;
 }
-
-body {
-  background-image: url("./ASSETS FINAL PROJECT HTML-CSS/ornament_batik.png"),
-    url("./ASSETS FINAL PROJECT HTML-CSS/ornament_batik.png");
-  background-position: left top, right bottom;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 18%;
-  height: 2000px;
+.background-info {
+  background-image: url("./ASSETS FINAL PROJECT HTML-CSS/ornament_batik.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 19%;
 }
 .title-page span {
   color: #f47522;
 }
-h1,
+#body-team h1,
 h2,
 h3,
 h6 {
@@ -26,24 +25,40 @@ h6 {
   font-family: "Muli", sans-serif;
   font-weight: bold;
 }
-td {
+#body-team td {
   color: #19345e;
   font-family: "Muli", sans-serif;
 }
 .personal-image img {
-  max-width: 100%;
+  max-width: 25vw;
+  max-height: 57vh;
+  position: relative;
 }
 
 .border {
-  height: 399px;
-  width: 320px;
-  border: #f47522;
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  max-width: 25vw;
+  max-height: 57vh;
 }
+#body-team .border img {
+  visibility: hidden;
+}
+
 .calendar {
   max-width: 4%;
 }
-ul,
+#body-team ul,
 p {
   color: #19345e;
   font-family: "Poppins", sans-serif;
 }
+#body-team footer {
+  background-color: #19345e;
+  height: 141px;
+}
+.footer-logo img {
+  max-width: 30%;
+}
+/*about-team-end*/
