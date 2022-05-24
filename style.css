@@ -84,3 +84,33 @@ footer {
 .hero-icon {
   width: 15%;
 }
+
+/* Bar Information Section */
+#bar-info card {
+  width: 18rem;
+}
+
+#bar-info p {
+  font-family: "Roboto", "Muli" monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#bar-info p span {
+  font-family: "Roboto", "Muli" monospace;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
+.circle-icon {
+  width: 1.828vw;
+  height: 10vh;
+  background-color: #f47522;
+  transition: all 0.1s ease-in;
+}
+
+.bar-img {
+  width: 1.95vw;
+}
