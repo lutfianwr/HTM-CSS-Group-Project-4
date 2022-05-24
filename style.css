@@ -1,49 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-@media screen and (max-width: 600px) {
-  h2 {
-    text-align: center;
-  }
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  background-image: url("./ASSETS FINAL PROJECT HTML-CSS/ornament_batik.png"),
-    url("./ASSETS FINAL PROJECT HTML-CSS/ornament_batik.png");
-  background-position: left top, right bottom;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 18%;
-  height: 2000px;
+/* Navbar */
+nav {
+  padding: 15px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #c1c3c736;
+  opacity: 1;
 }
-.title-page span {
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Muli", "Roboto", monospace;
+  color: #19345e;
+}
+
+nav ul li a:hover {
   color: #f47522;
 }
-h1,
-h2,
-h3,
-h6 {
-  color: #19345e;
-  font-family: "Muli", sans-serif;
-  font-weight: bold;
-}
-td {
-  color: #19345e;
-  font-family: "Muli", sans-serif;
-}
-.personal-image img {
-  max-width: 100%;
+
+.nav-logo {
+  width: 8vw;
 }
 
-.border {
-  height: 399px;
-  width: 320px;
-  border: #f47522;
+.nav-btn-border {
+  border: 2px solid Tomato;
 }
-.calendar {
-  max-width: 4%;
+
+/* Footer */
+.footer-logo img {
+  max-width: 30%;
 }
-ul,
-p {
-  color: #19345e;
-  font-family: "Poppins", sans-serif;
+
+footer {
+  background-color: #19345e;
+  height: 141px;
 }
