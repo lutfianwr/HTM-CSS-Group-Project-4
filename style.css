@@ -1,18 +1,58 @@
-/*about-team-start*/
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+/* Navbar */
+nav {
+  padding: 15px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #c1c3c736;
+  opacity: 1;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Muli", "Roboto", monospace;
+  color: #19345e;
+}
+
+nav ul li a:hover {
+  color: #f47522;
+}
+
+.nav-logo {
+  width: 8vw;
+}
+
+.nav-btn-border {
+  border: 2px solid Tomato;
+}
+
+/* Footer */
+.footer-logo img {
+  max-width: 30%;
+}
+
+footer {
+  background-color: #19345e;
+  height: 141px;
+}
+.footer-text {
+  font-family: Arial, sans-serif;
+}
+
+/*about-team-start*/
+
 #body-team {
-  background-image: url("./ASSETS FINAL PROJECT HTML-CSS/ornament_batik.png");
+  background-image: url("./assets/ornament_batik.png");
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: 19%;
+  background-size: 15%;
 }
 .background-info {
-  background-image: url("./ASSETS FINAL PROJECT HTML-CSS/ornament_batik.png");
+  background-image: url("./assets/ornament_batik.png");
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: 19%;
+  background-size: 15%;
 }
 .title-page span {
   color: #f47522;
@@ -30,24 +70,22 @@ h6 {
   font-family: "Muli", sans-serif;
 }
 .personal-image img {
-  max-width: 25vw;
-  max-height: 57vh;
+  width: 320px;
+  height: 399px;
   position: relative;
 }
 
-.border {
+.personal-border img {
   position: absolute;
-  left: 16%;
-  top: 45%;
-  max-width: 25vw;
-  max-height: 57vh;
-}
-#body-team .border img {
-  visibility: hidden;
+  border: 10px solid #f47522;
+  width: 320px;
+  height: 399px;
+  top: 350px;
+  left: 220px;
 }
 
 .calendar {
-  max-width: 4%;
+  width: 4%;
 }
 #body-team ul,
 p {
@@ -56,9 +94,13 @@ p {
 }
 #body-team footer {
   background-color: #19345e;
-  height: 141px;
+  height: 100%;
 }
 .footer-logo img {
-  max-width: 30%;
+  width: 25%;
+}
+
+.social img {
+  width: 10%;
 }
 /*about-team-end*/
