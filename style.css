@@ -32,23 +32,25 @@ nav ul li a:hover {
   max-width: 30%;
 }
 
-footer {
-  background-color: #19345e;
-  height: 141px;
-}
 .footer-text {
   font-family: Arial, sans-serif;
 }
+footer {
+  background-color: #19345e;
+  height: 100%;
+}
+.footer-logo img {
+  width: 25%;
+}
 
 /*about-team-start*/
-
 #body-team {
   background-image: url("./assets/ornament_batik.png");
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 15%;
 }
-.background-info {
+.background-info-bottom {
   background-image: url("./assets/ornament_batik.png");
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -65,39 +67,35 @@ h6 {
   font-family: "Muli", sans-serif;
   font-weight: bold;
 }
-#body-team td {
-  color: #19345e;
-  font-family: "Muli", sans-serif;
-}
+
 .personal-image img {
   width: 320px;
   height: 399px;
   position: relative;
 }
 
-.personal-border img {
-  position: absolute;
+.personal-border {
   border: 10px solid #f47522;
   width: 320px;
   height: 399px;
-  top: 350px;
-  left: 220px;
+  position: absolute;
+  margin-top: -375px;
+  margin-left: -25px;
 }
-
-.calendar {
-  width: 4%;
+.border-bottom {
+  width: 65%;
+}
+#body-team td {
+  color: #19345e;
+  font-family: "Muli", sans-serif;
 }
 #body-team ul,
 p {
   color: #19345e;
   font-family: "Poppins", sans-serif;
 }
-#body-team footer {
-  background-color: #19345e;
-  height: 100%;
-}
-.footer-logo img {
-  width: 25%;
+.calendar {
+  width: 4%;
 }
 
 .social img {
