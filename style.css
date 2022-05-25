@@ -51,28 +51,28 @@ footer {
 
 #hero h2 {
   font-family: "Muli", "Roboto", monospace;
-  font-size: 1.5625rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #19345e;
 }
 
 #hero h1 {
   font-family: "Roboto", "Muli", monospace;
-  font-size: 2.8125rem;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #19345e;
 }
 
 #hero h1 span {
   font-family: "Roboto", "Muli", monospace;
-  font-size: 2.8125rem;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #f47522;
 }
 
 #hero p {
   font-family: "Muli", "Roboto", monospace;
-  font-size: 1.0625rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #19345e;
 }
@@ -99,7 +99,7 @@ footer {
 
 #bar-info p span {
   font-family: "Roboto", "Muli" monospace;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #19345e;
 }
@@ -118,7 +118,7 @@ footer {
 /* About Section */
 #about h1 {
   font-family: "Muli", "Roboto", monospace;
-  font-size: 2.8125rem;
+  font-size: 2.8rem;
   font-weight: 400;
   color: #19345e;
 }
@@ -128,7 +128,7 @@ footer {
 }
 
 .text-about {
-  font-size: 3.4375rem;
+  font-size: 3.4rem;
   font-family: "Muli", "Roboto", monospace;
   font-weight: 400;
   text-align: center;
@@ -158,7 +158,7 @@ footer {
 
 #meet-team h1 {
   font-family: "Muli", "Roboto", monospace;
-  font-size: 2.8125rem;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #19345e;
 }
@@ -169,21 +169,21 @@ footer {
 
 #meet-team figcaption {
   font-family: "Muli", "Roboto", monospace;
-  font-size: 1.0625rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #19345e;
 }
 
 #meet-team h3 {
   font-family: "Roboto", "Muli", monospace;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #f47522;
 }
 
 #meet-team p {
   font-family: "Poppins", "Muli", monospace;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   font-weight: 400;
   color: #19345e;
 }
@@ -203,14 +203,44 @@ footer {
   background-image: url("assets/shutterstock_796346011@2x.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 17.578vw;
-  height: 42.063vh;
+  width: 17.5vw;
+  height: 42vh;
 }
 
 .team-border {
   border: 10px solid #f47522;
-  width: 17.578vw;
-  height: 42.063vh;
+  width: 17.5vw;
+  height: 42vh;
   top: 15px;
   right: 15px;
+}
+
+/* Latest Blog Section */
+#latest-blog h1 {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#latest-blog h1 i {
+  color: #f47522;
+}
+
+#latest-blog p {
+  font-family: "Poppins", "Muli", monospace;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
+#latest-blog a {
+  font-family: "Poppins", "Muli", monospace;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
+.right-text {
+  text-align-last: right;
 }
