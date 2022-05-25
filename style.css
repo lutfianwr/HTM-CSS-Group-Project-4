@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +14,6 @@ nav {
   box-shadow: 0px 3px 6px #c1c3c736;
   opacity: 1;
 }
-
 
 nav ul li a {
   text-decoration: none;
@@ -42,7 +40,7 @@ nav ul li a:hover {
 
 footer {
   background-color: #19345e;
-  height: 141px;
+  height: 100%;
 }
 
 /* Hero Section */
@@ -287,7 +285,7 @@ h6 {
   margin-left: -25px;
 }
 .border-bottom {
-  width: 65%;
+  width: 80%;
 }
 #body-team td {
   color: #19345e;
@@ -300,7 +298,6 @@ p {
 }
 .calendar {
   width: 3%;
-
 }
 
 .social img {
@@ -329,4 +326,3 @@ h6 {
   width: 7%;
 }
 /*contact-end*/
-
