@@ -1,5 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 /* Navbar */
 nav {
@@ -8,6 +15,7 @@ nav {
   box-shadow: 0px 3px 6px #c1c3c736;
   opacity: 1;
 }
+
 
 nav ul li a {
   text-decoration: none;
@@ -32,15 +40,211 @@ nav ul li a:hover {
   max-width: 30%;
 }
 
-.footer-text {
-  font-family: Arial, sans-serif;
-}
 footer {
   background-color: #19345e;
+  height: 141px;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #edf6ff;
+  height: 100vh;
+}
+
+#hero h2 {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
+#hero h1 {
+  font-family: "Roboto", "Muli", monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#hero h1 span {
+  font-family: "Roboto", "Muli", monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #f47522;
+}
+
+#hero p {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+.hero-img {
+  width: 75%;
+}
+
+.hero-icon {
+  width: 15%;
+}
+
+/* Bar Information Section */
+#bar-info card {
+  width: 18rem;
+}
+
+#bar-info p {
+  font-family: "Roboto", "Muli" monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#bar-info p span {
+  font-family: "Roboto", "Muli" monospace;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
+.circle-icon {
+  width: 4vw;
+  height: 8vh;
+  background-color: #f47522;
+  transition: all 0.1s ease-in;
+}
+
+.bar-img {
+  width: 1.95vw;
+}
+
+/* About Section */
+#about h1 {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
+#about h1 i {
+  color: #f47522;
+}
+
+.text-about {
+  font-size: 3.4rem;
+  font-family: "Muli", "Roboto", monospace;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.text-aboutParagraf {
+  font-size: 1.125rem;
+  font-family: "Muli", "Roboto", monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+.bg-opacity {
+  background-color: rgba(25, 52, 94, 0.7);
+  width: 100%;
   height: 100%;
 }
-.footer-logo img {
-  width: 25%;
+
+/* Meet Team Section */
+#meet-team {
+  background-image: url("assets/ornament_batik.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 12%;
+}
+
+#meet-team h1 {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#meet-team h1 i {
+  color: #f47522;
+}
+
+#meet-team figcaption {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#meet-team h3 {
+  font-family: "Roboto", "Muli", monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f47522;
+}
+
+#meet-team p {
+  font-family: "Poppins", "Muli", monospace;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
+#meet-team a {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #19345e;
+}
+
+#meet-team a i {
+  color: #19345e;
+}
+
+.img-meet-team {
+  background-image: url("assets/shutterstock_796346011@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 17.5vw;
+  height: 42vh;
+}
+
+.team-border {
+  border: 10px solid #f47522;
+  width: 17.5vw;
+  height: 42vh;
+  top: 15px;
+  right: 15px;
+}
+
+/* Latest Blog Section */
+#latest-blog h1 {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#latest-blog h1 i {
+  color: #f47522;
+}
+
+#latest-blog p {
+  font-family: "Poppins", "Muli", monospace;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
+#latest-blog a {
+  font-family: "Poppins", "Muli", monospace;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
+.right-text {
+  text-align-last: right;
 }
 
 /*about-team-start*/
@@ -95,10 +299,34 @@ p {
   font-family: "Poppins", sans-serif;
 }
 .calendar {
-  width: 4%;
+  width: 3%;
+
 }
 
 .social img {
   width: 10%;
 }
 /*about-team-end*/
+
+/*contact-start*/
+#body-contact h1,
+h2,
+h3,
+h6 {
+  color: #19345e;
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+}
+.contact-img img {
+  width: 4%;
+}
+
+.contact-info {
+  color: #19345e;
+  font-family: "Poppins", sans-serif;
+}
+.social-img img {
+  width: 7%;
+}
+/*contact-end*/
+
