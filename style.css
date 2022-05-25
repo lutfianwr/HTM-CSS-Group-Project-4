@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,7 @@ nav {
   box-shadow: 0px 3px 6px #c1c3c736;
   opacity: 1;
 }
+
 
 nav ul li a {
   text-decoration: none;
@@ -298,6 +300,7 @@ p {
 }
 .calendar {
   width: 3%;
+
 }
 
 .social img {
@@ -326,3 +329,4 @@ h6 {
   width: 7%;
 }
 /*contact-end*/
+
