@@ -1,24 +1,266 @@
-/*desktop*/
-@media screen and (min-width: 922px) {
-}
-/*footer*/
-.social img {
-  width: 8%;
-}
 
-/*tablet*/
-
+/* Tablet */
 @media screen and (max-width: 922px) {
-  /*footer*/
-  .social img {
-    width: 15%;
+  /* Hero Section */
+  #hero {
+    height: 60vh;
+  }
+
+  #hero img {
+    width: 100%;
+  }
+
+  .hero-btn-hover {
+    width: 30vw;
+  }
+
+  .hero-btn-hover:hover {
+    width: 30vw;
+  }
+
+  /* Bar Information Section */
+  .circle-icon {
+    width: 2vw;
+    height: 4vh;
+    background-color: #f47522;
+  }
+
+  .bar-img {
+    width: 1.5vw;
+  }
+
+  #bar-info p {
+    font-size: 0.5rem;
+  }
+
+  #bar-info p span {
+    font-size: 0.3rem;
+  }
+
+  /* About Section */
+  .text-aboutParagraf {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+ }
+
+.text-about {
+    margin-top: 6rem;
+  }
+
+  /* Meet Team Section */
+  #meet-team h1 {
+    font-size: 2rem;
+  }
+
+  #meet-team figcaption {
+    font-size: 1rem;
+  }
+
+  .img-meet-team {
+    width: 25vw;
+    height: 25vh;
+  }
+  
+  .team-border {
+    width: 25vw;
+    height: 25vh;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .team-box-hover {;
+    margin-left: 78vw
+    width: 25vw;
+    height: 25vh;
+    margin-bottom: 6rem
+  }
+  
+  .team-border:hover {
+    width: 25vw;
+    height: 25vh;
+    top: 15px;
+    right: 15px;
+  }
+
+  .team-box-hover:hover{
+    transform: translate(0vw, -2vh);
   }
 }
 
-/*mobile*/
+/* Latest Blog Section */
+#latest-blog h1 {
+    font-size: 2rem;
+  }
 
+  .card-tablet {
+    margin-left: 25vw;
+  }
+
+  /*page-contact*/
+  .contact-submit-txt {
+    background-size: 3vw 3vh;
+    background-position: 2.5rem;
+    width: 38vw;
+  }
+  
+  .contact-submit-txt:hover {
+   
+    background-size: 3vw 3vh;
+    background-position: 2.5rem;
+    width: 38vw;
+  }
+
+/*footer*/
+  .social img {
+    width: 15%;
+  }
+
+
+/* Mobile */
 @media screen and (max-width: 576px) {
-  /*footer*/
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .footer-logo img {
+    max-width: 20%;
+  }
+
+  .social img {
+    width: 7%;
+    padding: 0px;
+  }
+
+  /* Hero Section */
+  #hero {
+    height: 90vh;
+  }
+
+  #hero img {
+    float: none;
+  }
+
+  .hero-btn-hover {
+    width: 50vw;
+  }
+
+  .hero-btn-hover:hover {
+    width: 50vw;
+  }
+
+  /* Bar Information Section */
+  .border-barinfo {
+    border-style: none;
+  }
+
+  .bar-border-side {
+    border-right-style: none;
+  }
+
+  .circle-icon {
+    width: 12vw;
+    height: 8vh;
+  }
+
+  .bar-img {
+    width: 8vw;
+  }
+
+  #bar-info p {
+    font-size: 2rem;
+  }
+
+  #bar-info p span {
+    font-size: 1.5rem;
+  }
+
+  /* About Section */
+  #about h1 {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.text-aboutParagraf {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.text-about {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+  }
+
+  /* Meet Team Section */
+  #meet-team h1 {
+    font-size: 2rem;
+  }
+
+  #meet-team figcaption {
+    font-size: 1rem;
+  }
+
+  .img-meet-team {
+    width: 30vw;
+    height: 20vh;
+  }
+  
+  .team-border {
+    width: 30vw;
+    height: 20vh;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .team-box-hover {;
+    margin-left: 78vw
+    width: 30vw;
+    height: 20vh;
+    margin-bottom: 6rem
+  }
+  
+  .team-border:hover {
+    width: 30vw;
+    height: 20vh;
+    top: 15px;
+    right: 15px;
+  }
+
+  .team-box-hover:hover{
+    transform: translate(2vw, 0vh);
+  }
+
+  /* Latest Blog Section */
+  #latest-blog h1 {
+    font-size: 2rem;
+  }
+
+  #latest-blog img {
+      width: 88vw;
+  }
+
+  .card-tablet {
+    margin-left: 0vw;
+  }
+
+  /*page-contact*/
+  .contact-submit-txt {
+    background-size: 4vw 3vh;
+    background-position: 2rem;
+    width: 58vw;
+  }
+  
+  .contact-submit-txt:hover {
+   
+    background-size: 4vw 3vh;
+    background-position: 2rem;
+    width: 58vw;
+  }
+  
+   /*footer*/
   .social img {
     width: 8%;
   }
@@ -33,8 +275,5 @@
   .contact-form {
     padding-left: 10%;
     padding-right: 10%;
-  }
-
-  @media screen and (max-width: 350px) {
   }
 }
