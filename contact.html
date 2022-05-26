@@ -85,8 +85,8 @@
     </div>
     <!-- contact form -->
     <div class="container">
-      <div class="row contact">
-        <div class="contact-info col-sm-4">
+      <div class="row contact justify-content-center">
+        <div class="contact-info col-sm-3 ps-5 py-5">
           <div class="contact-img">
             <p class="mb-0">Phone</p>
             <img class="my-3 ms-3 me-1" src="./assets/phone.png" alt="" />
@@ -111,8 +111,97 @@
           </div>
         </div>
 
-        <div class="contact-form col-sm-6"></div>
+        <div class="contact-form col-md-7 p-5">
+          <div class="contact-form-txt mb-4">
+            <p class="pb-2">
+              If you have any suggestion, project or even you want to say,
+              Hello.. <br />
+              Please fill out the form below and I will reply you shortly.
+            </p>
+            <label for="formGroupExampleInput" class="form-label"
+              >Full Name <span>*</span></label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="contact-form-txt mb-4">
+            <label for="formGroupExampleInput2" class="form-label"
+              >Email Address <span>*</span></label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="formGroupExampleInput2"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="contact-form-txt contact-form mb-4">
+            <label for="formGroupExampleInput2" class="form-label"
+              >Phone Number <span>*</span></label
+            >
+            <input
+              type="tel"
+              class="form-control"
+              id="formGroupExampleInput2"
+              placeholder="Your Phone Number"
+            />
+          </div>
+          <div class="contact-form-txt mb-5 pb-5">
+            <label for="formGroupExampleInput2" class="form-label"
+              >Message <span>*</span></label
+            >
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                id="floatingTextarea2"
+                style="height: 100px"
+                placeholder="Your Message"
+              ></textarea>
+              <label class="float-placeholder" for="floatingTextarea2"
+                >Your Message
+              </label>
+            </div>
+
+            <div class="contact-submit pt-5">
+              <button
+                type="button"
+                class="btn btn-outline-warning rounded-pill"
+              >
+                <div class="contact-submit-txt">
+                  <img src="./assets/send-mail-hover.png" alt="" /> Send Message
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <footer>
+      <div class="container">
+        <div class="row mt-5 ps-4 align-items-center">
+          <div class="col-sm-4 p-4 footer-logo">
+            <img class="ps-2" src="./assets/logo-ALTA-v2@2x.png" alt="" />
+          </div>
+          <div class="social col-sm-4 p-4">
+            <p class="footer-text text-white ps-2 mb-0">Social Media</p>
+
+            <img class="p-2" src="./assets/ic_fb.png" alt="" />
+            <img class="p-2" src="./assets/ic_twitter.png" alt="" />
+            <img class="p-2" src="./assets/ic_ig.png" alt="" />
+            <img class="p-2" src="./assets/ic_linkedin.png" alt="" />
+          </div>
+          <div class="col-sm-4 p-4">
+            <p class="footer-text text-white ps-2 mb-0">
+              Copyright &copy; 2019 Alterra
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

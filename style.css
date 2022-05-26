@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   margin: 0;
@@ -37,12 +39,18 @@ nav ul li a:hover {
 .footer-logo img {
   max-width: 30%;
 }
-
+.social img {
+  width: 10%;
+  padding: 0px;
+}
 footer {
   background-color: #19345e;
   height: 100%;
+  font-size: small;
 }
-
+.footer-text {
+  font-family: Arial, sans-serif;
+}
 /* Hero Section */
 #hero {
   background-color: #edf6ff;
@@ -300,9 +308,6 @@ p {
   width: 3%;
 }
 
-.social img {
-  width: 10%;
-}
 /*about-team-end*/
 
 /*contact-start*/
@@ -314,6 +319,11 @@ h6 {
   font-family: "Muli", sans-serif;
   font-weight: bold;
 }
+#body-contact .form-control:focus {
+  border-color: #f47522;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 145, 0);
+  text-decoration-color: #ffffff;
+}
 .contact-img img {
   width: 4%;
 }
@@ -323,6 +333,26 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 .social-img img {
+  width: 8%;
+}
+.contact-form {
+  color: #19345e;
+  font-family: "Poppins", sans-serif;
+}
+.contact-form span {
+  color: #ff0303;
+}
+.contact-submit {
+  width: 80%;
+}
+.float-placeholder {
+  color: #707070;
+}
+.contact-submit-txt img {
   width: 7%;
 }
-/*contact-end*/
+.contact-submit :hover {
+  color: #ffffff;
+}
+/*contact-end   ;
+*/
