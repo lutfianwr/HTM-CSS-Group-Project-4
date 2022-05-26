@@ -111,11 +111,6 @@
     width: 38vw;
   }
 
-/*footer*/
-  .social img {
-    width: 15%;
-  }
-
 
 /* Mobile */
 @media screen and (max-width: 576px) {
@@ -259,21 +254,5 @@
     background-position: 2rem;
     width: 58vw;
   }
-  
-   /*footer*/
-  .social img {
-    width: 8%;
-  }
-  .social {
-    text-align: start;
-  }
-  .alterra-cpr {
-    text-align: start;
-  }
-
-  /*contact*/
-  .contact-form {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
+ 
 }
