@@ -17,10 +17,7 @@
   opacity: 1;
 }
 
-
-nav ul li a {
-  text-decoration: none;
-  font-family: "Muli", "Roboto", monospace;
+.nav-link {
   color: #19345e;
 }
 
@@ -56,16 +53,9 @@ nav ul li a {
   max-width: 30%;
 }
 .social img {
-  width: 8%;
+  width: 10%;
   padding: 0px;
 }
-.social {
-  text-align: center;
-}
-.alterra-cpr {
-  text-align: end;
-}
-
 footer {
   background-color: #19345e;
   height: 100%;
@@ -75,9 +65,7 @@ footer {
   font-family: Arial, sans-serif;
 }
 
-
 /* Page Home */
-
 /* Hero Section */
 #hero {
   background-color: #edf6ff;
@@ -127,7 +115,6 @@ footer {
   width: 18vw;
 }
 
-
 .hero-btn-hover:hover {
   background-color: #f47522;
   color: #fff;
@@ -136,11 +123,6 @@ footer {
   background-size: 1.5vw 3vh;
   background-position: 1.3rem;
   width: 18vw;
-
-/* Page Home */
-/* Bar Information Section */
-#bar-info card {
-  width: 18rem;
 }
 
 /* Bar Information Section */
@@ -333,7 +315,6 @@ footer {
   text-align-last: right;
 }
 
-
 .blog-btn-hover {
   color: #19345e;
 }
@@ -341,7 +322,7 @@ footer {
 .blog-btn-hover:hover {
   color: #f47522;
 }
-  
+
 /* Page Blog */
 /* Hero Blog Section */
 #hero-blog img {
@@ -388,7 +369,6 @@ footer {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 15%;
-  background-position: left 0% top 2.6%;
 }
 .background-info-bottom {
   background-image: url("./assets/ornament_batik.png");
@@ -419,8 +399,8 @@ h6 {
   width: 320px;
   height: 399px;
   position: absolute;
-  margin-top: -385px;
-  margin-left: -15px;
+  margin-top: -375px;
+  margin-left: -25px;
 }
 
 .personal-border:hover {
@@ -439,21 +419,13 @@ h6 {
   color: #19345e;
   font-family: "Muli", sans-serif;
 }
-#body-team p {
-  color: #19345e;
-  font-family: "Poppins", sans-serif;
-}
-.education,
-.experience {
+#body-team ul,
+p {
   color: #19345e;
   font-family: "Poppins", sans-serif;
 }
 .calendar {
   width: 3%;
-}
-
-.personal-border:hover {
-  border: 10px solid #19345e;
 }
 
 /*about-team-end*/
@@ -476,9 +448,8 @@ h6 {
 #body-contact a {
   width: 23vw
 }
-  
 .contact-img img {
-  width: 6%;
+  width: 4%;
 }
 
 .contact-info {
@@ -524,5 +495,5 @@ h6 {
   color: #ffffff;
 }
 
-
 /*contact-end*/
+
