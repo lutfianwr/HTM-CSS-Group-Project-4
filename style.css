@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -41,8 +40,14 @@ nav ul li a:hover {
   max-width: 30%;
 }
 .social img {
-  width: 10%;
+  width: 8%;
   padding: 0px;
+}
+.social {
+  text-align: center;
+}
+.alterra-cpr {
+  text-align: end;
 }
 footer {
   background-color: #19345e;
@@ -301,6 +306,7 @@ footer {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 15%;
+  background-position: left 0% top 2.6%;
 }
 .background-info-bottom {
   background-image: url("./assets/ornament_batik.png");
@@ -331,8 +337,8 @@ h6 {
   width: 320px;
   height: 399px;
   position: absolute;
-  margin-top: -375px;
-  margin-left: -25px;
+  margin-top: -385px;
+  margin-left: -15px;
 }
 .border-bottom {
   width: 80%;
@@ -341,13 +347,20 @@ h6 {
   color: #19345e;
   font-family: "Muli", sans-serif;
 }
-#body-team ul,
-p {
+#body-team p {
+  color: #19345e;
+  font-family: "Poppins", sans-serif;
+}
+.education,
+.experience {
   color: #19345e;
   font-family: "Poppins", sans-serif;
 }
 .calendar {
   width: 3%;
+}
+.personal-border:hover {
+  border: 10px solid #19345e;
 }
 
 /*about-team-end*/
@@ -367,7 +380,7 @@ h6 {
   text-decoration-color: #ffffff;
 }
 .contact-img img {
-  width: 4%;
+  width: 6%;
 }
 
 .contact-info {
@@ -393,9 +406,11 @@ h6 {
 .contact-submit-txt img {
   width: 7%;
 }
-
-/*contact-end*/
+.img-front:hover {
+  opacity: 0;
+}
 .contact-submit :hover {
   color: #ffffff;
 }
 
+/*contact-end*/

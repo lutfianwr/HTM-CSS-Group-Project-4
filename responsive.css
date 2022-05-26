@@ -1,0 +1,40 @@
+/*desktop*/
+@media screen and (min-width: 922px) {
+}
+/*footer*/
+.social img {
+  width: 8%;
+}
+
+/*tablet*/
+
+@media screen and (max-width: 922px) {
+  /*footer*/
+  .social img {
+    width: 15%;
+  }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 576px) {
+  /*footer*/
+  .social img {
+    width: 8%;
+  }
+  .social {
+    text-align: start;
+  }
+  .alterra-cpr {
+    text-align: start;
+  }
+
+  /*contact*/
+  .contact-form {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  @media screen and (max-width: 350px) {
+  }
+}
