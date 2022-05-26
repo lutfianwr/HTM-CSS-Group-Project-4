@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +14,6 @@ nav {
   box-shadow: 0px 3px 6px #c1c3c736;
   opacity: 1;
 }
-
 
 nav ul li a {
   text-decoration: none;
@@ -87,6 +85,7 @@ footer {
   width: 15%;
 }
 
+/* Page Home */
 /* Bar Information Section */
 #bar-info card {
   width: 18rem;
@@ -247,6 +246,46 @@ footer {
   text-align-last: right;
 }
 
+/* Page Blog */
+/* Hero Blog Section */
+#hero-blog img {
+  width: 100%;
+  height: 100%;
+}
+
+#hero-blog h1 {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#hero-blog h1 i {
+  color: #f47522;
+}
+
+/* Blog Desc Section */
+#blog-desc h1 {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#blog-desc h5 {
+  font-family: "Muli", "Roboto", monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+#blog-desc p {
+  font-family: "Poppins", "Roboto", monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #19345e;
+}
+
 /*about-team-start*/
 #body-team {
   background-image: url("./assets/ornament_batik.png");
@@ -300,7 +339,6 @@ p {
 }
 .calendar {
   width: 3%;
-
 }
 
 .social img {
@@ -329,4 +367,3 @@ h6 {
   width: 7%;
 }
 /*contact-end*/
-
