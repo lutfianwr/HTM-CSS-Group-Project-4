@@ -1,3 +1,4 @@
+
 /* Tablet */
 @media screen and (max-width: 922px) {
   /* Hero Section */
@@ -108,6 +109,11 @@
     background-size: 3vw 3vh;
     background-position: 2.5rem;
     width: 38vw;
+  }
+
+/*footer*/
+  .social img {
+    width: 15%;
   }
 
 
@@ -253,5 +259,21 @@
     background-position: 2rem;
     width: 58vw;
   }
- 
+  
+   /*footer*/
+  .social img {
+    width: 8%;
+  }
+  .social {
+    text-align: start;
+  }
+  .alterra-cpr {
+    text-align: start;
+  }
+
+  /*contact*/
+  .contact-form {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
